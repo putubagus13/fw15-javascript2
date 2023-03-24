@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+<script>
+    let data={
+        id:1,
+        name: 'Leanne Graham',
+        username: 'bret',
+        email: 'Sincere@april.biz',
+        address:
+        {
+            street:'Kulas Light',
+            suite: 'apt. 556',
+            city: 'Gwenbroroungh',
+            zipcode: '92998-3874',
+        },
+        phone: '1-770-736-0831 x56442',
+        webside: 'hildegard.org',
+    }
+    
+    let newdata = {...data, name: 'Putu Bagus raditya', username: '@putu13', email: 'putu0312@gmail.com', hobby: 'treveling'};
+    console.log(newdata);
+</script>
+<body>
+    
+</body>
+</html>
