@@ -20,7 +20,7 @@
     var hasil = [];
     for(var i = 0; i < dataArray.length; i++){
         if(dataArray[i] > nilaiAwal && dataArray[i] < nilaiAkhir){
-            hasil.push(dataArray[i]);
+            hasil=[...hasil, dataArray[i]]
         }
     }
     console.log(hasil);
